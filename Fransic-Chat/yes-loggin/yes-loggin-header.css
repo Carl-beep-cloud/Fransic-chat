@@ -1,0 +1,180 @@
+.navbar-box-holder {
+
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.navbar-box {
+
+    color: orange !important;
+    height: auto !important;
+    margin: 0 !important;
+    background-color: #333 !important;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.image-and-text-holder {
+    display: flex !important;
+    align-items: center !important;
+    width: 50% !important;
+}
+
+.image-and-text-holder :last-child {
+    padding-left: 1% !important;
+    color: orange;
+    font-size: 3vw !important;
+    font-weight: bold;
+
+}
+
+.image-class {
+    width: 10% !important;
+    border-radius: 50% !important;
+  
+}
+
+/* ProfilBild delen */
+
+.mydropdown{
+    position: relative;
+    display: inline-block;
+    right: auto;
+    width: 10%;
+}
+
+.prof-image {
+    width: 50% !important;
+    border-radius: 50% !important;
+    height: auto;
+    border: 2px solid orange !important;
+    max-height: 94.05px; 
+   
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*! Utseende på dropdown menun */
+
+/* Custom Dropdown Styling */
+.my-change {
+    background-color: black !important;  
+    border: 2px solid yellow !important; 
+    padding: 10px 0 !important; 
+    min-width: 125px !important; 
+    width: 100% !important;
+    font-size: 125% !important;
+}
+
+
+.my-change .dropdown-item {
+    color: orange !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    display: block;
+    padding: 8px 15px !important;
+    border-bottom: 1px solid grey !important; 
+}
+
+
+.my-change .dropdown-item:last-child {
+    border-bottom: none !important;
+}
+
+
+.my-change .dropdown-item:hover {
+    background-color: #222 !important; /* Darker background on hover */
+    color: white !important; /* White text on hover */
+}
+
+
+@media (max-width:1100px) {
+
+    .my-button-changes {
+        font-size: 2.2vw !important;
+    }
+
+    .image-class {
+        width: 24% !important;
+    }
+
+
+    .mydropdown{
+       
+        width: 25%;
+    }
+
+}
+
+
+@media (max-width:900px) {
+
+    .image-class {
+        width: 24% !important;
+    }
+
+
+    .mydropdown{
+       
+        width: 25%;
+    }
+ 
+
+    .image-and-text-holder :last-child {
+        font-size: 4vw !important;
+    }
+
+ 
+
+}
+
+
+@media (max-width:600px) {
+
+    .image-class {
+        width: 40% !important;
+    }
+
+    .mydropdown{
+       
+        width: 40%;
+        display: flex;
+        justify-content: right;
+    }
+    
+
+    .image-and-text-holder :last-child {
+        font-size: 6vw !important;
+    }
+
+  
+
+}
+
+
+@media (max-width:400px) {
+
+
+    .image-class {
+        width: 60% !important;
+    }
+
+    .mydropdown{
+       
+        width: 40%;
+        display: flex;
+        justify-content: right;
+    }
+    
+
+    .image-and-text-holder :last-child {
+        font-size: 6vw !important;
+    }
+
+   
+
+}
